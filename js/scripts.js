@@ -1,8 +1,8 @@
             // frontend
-$(document).ready(function(){
-  $("#form").click(function(event){
+$(document).ready(function() {
+  $("form#input").submit(function() {
     event.preventdefault();
-    var pingpong = $("number-input").val();
+    var pingpong = parseInt($("input").val());
     var printscreen = products(pingpong);
     printscreen.foreach(function(element){
       $("#output").append("<li><h2>" + element + "</h2></li>");
