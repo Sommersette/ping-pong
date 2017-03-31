@@ -3,28 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Ping-Pong Ring the Gong</title>
-    <link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.css" media="screen" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" media="screen" type="text/css" charset="utf-8">
+    <!-- <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css"> -->
     <link rel="stylesheet" href="css/styles.css" media="screen" type="text/css" charset="utf-8">
     <script src="js/jquery-3.2.0.min.js" charset="utf-8"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="container">
-      <div id="leftside" class="col-sm-6">
-        <div id="topleft" class="col-sm-6">
-          <h1>Ping-Pong Ring the Gong!!!</h1>
-          <form id="number-input">
-            <label for="">Pick a Number</label>
-            <input type="number">
+      <h1>Ping-Pong Ring the Gong!</h1><hr />
+      <div id="leftborder" class="col-sm-2">
+      </div>
+      <div class="col-sm-4">
+        <div  id="input" class="col-sm-12">
+          <form id="form">
+            <label for="input">Enter a Number</label>
+            <input id="input" type="number">
+            <button class="btn btn-success" type="submit">Enter</button>
           </form>
         </div>
-        <div id="bottomleft" class="col-sm-6">
-          <ul id="output"></ul>
+        <div id="output" class="col-sm-12">
+          <h1>Product</h1>
+          <ul><h4></h4></ul>
         </div>
       </div>
-      <div class="col-sm-6">
-        <img src="img/gong.jpg" alt="">
+      <div class="col-sm-4">
+        <img src="img/gong.jpg" alt="gong">
+      </div>
+      <div id="rightborder" class="col-sm-2">
       </div>
     </div>
   </body>
