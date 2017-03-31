@@ -1,9 +1,42 @@
 body {
+  background-color: #932435;
+}
+
+@font-face {
+    font-family: blowbrush;
+    src: url(../font/blowbrush.otf);
+}
+
+h1, h2, h3, h5{
+  text-align: center;
+  font-family: blowbrush;
+}
+
+h1, h2, h3 {
+  text-shadow: -2px 2px #000000,
+               -2px -2px #8e4040,
+               2px -2px #8e4040,
+               2px 2px #8e4040;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+li {
+  background-color: #E5BC3B;
+  font-size: 18px;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
+  width: 90%;
+  border-radius: 10%;
+  list-style-type: none;
 
 }
 
-h1 {
-  text-align: center;
+#title{
+  font-size: 55px;
 }
 
 img {
