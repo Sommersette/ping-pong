@@ -2,6 +2,14 @@ body {
   background-color: #932435;
 }
 
+#title{
+  font-size: 55px;
+  background-color: #E5BC3B;
+  position: relative;
+  border-radius: 10%;
+  text-align: bottom;
+}
+
 @font-face {
     font-family: blowbrush;
     src: url(../font/blowbrush.otf);
@@ -35,9 +43,6 @@ li {
 
 }
 
-#title{
-  font-size: 55px;
-}
 
 img {
   width: 100%;
