@@ -1,18 +1,16 @@
 
  // backend
- function products(pingpong)
+ function products(pingpong){
+   var numbers = [];
+   for(var i = 1; i <= pingpong; i ++) {
     if(3 % i) {
       push.("ping!")
-    }// else if {
-    //
-    // } else if {
-    //
-    // } else if {
-    //
-    // } else {
+
 
     }
-
+  }
+}
+    return
 
  // frontend
  $(document).ready(function(){
@@ -24,6 +22,5 @@
         $("#output").append("<li><h2>" + element + "</h2></li>");
       });
 
-     return
    });
 });
