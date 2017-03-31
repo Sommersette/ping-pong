@@ -3,11 +3,11 @@ $(document).ready(function(){
   $("#form").submit(function(event){
     event.preventdefault();
     var pingpong = $("number-input").val();
+    console.log("1");
     var printscreen = products(pinpong);
     printscreen.foreach(function(element){
       $("#output").append("<li><h2>" + element + "</h2></li>");
     });
-
   });
 });
 
@@ -17,8 +17,8 @@ $(document).ready(function(){
  function products(pingpong){
    var numbers = [];
    for (var i = 1; i <= pingpong; i ++) {
-     console.log("hello");
     if (i % 3) {
+      console.log("2");
       numbers.push("ping!");
   } else if (i % 5) {
       numbers.push("pong!");
