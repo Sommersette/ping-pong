@@ -1,15 +1,15 @@
 
  // backend
- function products()
-    if() {
-
-    } else if {
-
-    } else if {
-
-    } else if {
-
-    } else {
+ function products(pingpong)
+    if(3 % i) {
+      push.("ping!")
+    }// else if {
+    //
+    // } else if {
+    //
+    // } else if {
+    //
+    // } else {
 
     }
 
@@ -24,9 +24,6 @@
         $("#output").append("<li><h2>" + element + "</h2></li>");
       });
 
-
-     }
      return
    });
-
 });
