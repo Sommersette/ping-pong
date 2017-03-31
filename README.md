@@ -9,11 +9,18 @@
 _ A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
 
 * . HTML and CSS development.
-* . front end form with input field.
+* . JavaScript front end link form with input field.\
+* . numbers print to screen
+    - input: any #, output: same exact number.
 * . Numbers divisible by 3 are replaced with "ping".
+    - input: 3, output: ping.
 * . Numbers divisible by 5 are replaced with "pong".
+    - input: 5, output: pong.
 * . Numbers divisible by 15 are replaced with "ping-pong".
-* . A user should be able to enter a new number and see new results over and over again._
+    - input: 45, output: PINGPONG!.
+* . A user should be able to enter a new number and see new results over and over again.
+    -input: running list that remains on the page. output: <li></li>, <li></li>
+_
 
 ## Setup/Installation Requirements
 
