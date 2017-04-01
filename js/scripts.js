@@ -2,10 +2,10 @@
 $(document).ready(function() {
   $("#usernumbers").submit(function(event) {
     event.preventDefault();
-    var pingpong = parseInt($("input#").val());
+    var pingpong = parseInt($("input").val());
     alert(1)
     var printscreen = products(pingpong);
-    printscreen.foreach(function(element){
+    printscreen.forEach(function(element){
       $("#output").append("<li><h2> "+ printscreen +" </h2></li>");
     });
   });
