@@ -1,11 +1,12 @@
             // frontend
 $(document).ready(function() {
-  $("form#input").submit(function() {
-    event.preventdefault();
-    var pingpong = parseInt($("input").val());
+  $("#usernumbers").submit(function(event) {
+    event.preventDefault();
+    var pingpong = parseInt($("input#").val());
+    alert(1)
     var printscreen = products(pingpong);
     printscreen.foreach(function(element){
-      $("#output").append("<li><h2>" + element + "</h2></li>");
+      $("#output").append("<li><h2> "+ printscreen +" </h2></li>");
     });
   });
 });
@@ -13,7 +14,7 @@ $(document).ready(function() {
 
 
             // backend
- function products(pingpong){
+ var products = function(pingpong){
    var numbers = [];
    for (var i = 1; i <= pingpong; i ++) {
     if (i % 3) {
