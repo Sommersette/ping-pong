@@ -17,12 +17,12 @@ $(document).ready(function() {
    var numbers = [];
    for (var i = 1; i <= pingpong; i ++) {
      if (i % 3 === 0 && i % 5 === 0) {
-     numbers.push("PING-PONG!");
+      numbers.push("PING-PONG!");
    } else if (i % 5 === 0) {
-     numbers.push("pong!");
-  } else if (i % 3 === 0) {
-      numbers.push("ping!");
-  }  else {
+      numbers.push("pong!");
+   } else if (i % 3 === 0) {
+     numbers.push("ping!");
+   } else {
       numbers.push(i);
   }
 }
