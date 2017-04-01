@@ -20,11 +20,11 @@ _ A web application that takes a number from a user and returns a range of numbe
     - input: 45, output: PINGPONG!.
 * . A user should be able to enter a new number and see new results over and over again.
     -input: running list that remains on the page. output: in between the list tags.
-_
+
 
 ## Setup/Installation Requirements
 
-* _To use the code click download on this github page or in a terminal/command prompt type git clone_ https://github.com/Sommersette/ping-pong.git
+* _To use the code click download on this github page or in a terminal/command prompt type git clone_ https://github.com/Sommersette/ping-pong.git or run direct from sommersette.github.io/ping-pong 
 * _Once downloaded to desired directory navigate to folder and open index.html file_
 * _When loaded in browser follow on screen instructions_
 
