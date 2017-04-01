@@ -19,7 +19,7 @@ _ A web application that takes a number from a user and returns a range of numbe
 * . Numbers divisible by 15 are replaced with "ping-pong".
     - input: 45, output: PINGPONG!.
 * . A user should be able to enter a new number and see new results over and over again.
-    -input: running list that remains on the page. output: <li></li>, <li></li>
+    -input: running list that remains on the page. output: in between the list tags.
 _
 
 ## Setup/Installation Requirements
