@@ -3,10 +3,9 @@ $(document).ready(function() {
   $("#usernumbers").submit(function(event) {
     event.preventDefault();
     var pingpong = parseInt($("input").val());
-    alert(1)
     var printscreen = products(pingpong);
     printscreen.forEach(function(element){
-      $("#output").append("<li><h2> "+ printscreen +" </h2></li>");
+      $("#output").append("<li><h2> "+ element +" </h2></li>");
     });
   });
 });
@@ -17,17 +16,15 @@ $(document).ready(function() {
  var products = function(pingpong){
    var numbers = [];
    for (var i = 1; i <= pingpong; i ++) {
-    if (i % 3) {
+    if (i % 3 === 0) {
       numbers.push("ping!");
-  } else if (i % 5) {
+  } else if (i % 5 === 0) {
       numbers.push("pong!");
-  } else if ( i % 15) {
+  } else if (i % 3  && 5 === 0) {
       numbers.push("PINGPONG!");
   }  else {
       numbers.push(i);
   }
-
-
 }
   return numbers;
 }

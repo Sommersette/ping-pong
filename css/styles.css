@@ -18,17 +18,15 @@ body {
 h1, h2, h3, h5{
   text-align: center;
   font-family: blowbrush;
-}
-
-h1, h2, h3 {
-  text-shadow: -2px 2px #000000,
-               -2px -2px #8e4040,
-               2px -2px #8e4040,
-               2px 2px #8e4040;
+  background-color: #E5BC3B;
+  border-radius: 10%;
 }
 
 .underline {
   text-decoration: underline;
+}
+.btn {
+  background-color: #E5BC3B;
 }
 
 li {
