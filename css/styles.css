@@ -35,12 +35,11 @@ li {
   background-color: #E5BC3B;
   font-size: 18px;
   font-family: inherit;
-  text-align: center;
-  text-decoration: none;
+  /*text-decoration: none;*/
   width: 50%;
   border-radius: 10%;
   list-style-type: none;
-object-position: center;
+  object-position: center;
 }
 
 
